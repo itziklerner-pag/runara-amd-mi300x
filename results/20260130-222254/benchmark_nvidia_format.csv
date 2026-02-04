@@ -1,0 +1,10 @@
+Model,PP,TP,Input Length,Output Length,Throughput,GPU,Server,Precision,Framework
+Llama v3.3 70B,1,1,128,2048,33.1 output tokens/sec,1x MI300X,DO Gradient,FP8,vLLM
+Llama v3.3 70B,1,1,128,4096,33.2 output tokens/sec,1x MI300X,DO Gradient,FP8,vLLM
+Llama v3.3 70B,1,1,2048,128,32.4 output tokens/sec,1x MI300X,DO Gradient,FP8,vLLM
+Llama v3.3 70B,1,1,5000,500,32.6 output tokens/sec,1x MI300X,DO Gradient,FP8,vLLM
+Llama v3.3 70B,1,1,500,2000,33.1 output tokens/sec,1x MI300X,DO Gradient,FP8,vLLM
+Llama v3.3 70B,1,1,1000,1000,33.2 output tokens/sec,1x MI300X,DO Gradient,FP8,vLLM
+Llama v3.3 70B,1,1,1000,2000,33.1 output tokens/sec,1x MI300X,DO Gradient,FP8,vLLM
+Llama v3.3 70B,1,1,2048,2048,33.0 output tokens/sec,1x MI300X,DO Gradient,FP8,vLLM
+Llama v3.3 70B,1,1,20000,2000,0 output tokens/sec,1x MI300X,DO Gradient,FP8,vLLM
